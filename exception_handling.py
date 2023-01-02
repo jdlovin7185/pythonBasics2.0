@@ -5,8 +5,7 @@ def calculate_expenditure(list_of_expenditure):
         if type(expenditure) is int:
             total += expenditure
         else:
-            print("wrong data type")
-
+            print("wrong data type - ", expenditure, "is a data type of ", type(expenditure))
             break
     print(total)
 
